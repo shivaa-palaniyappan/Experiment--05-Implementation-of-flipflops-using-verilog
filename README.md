@@ -102,39 +102,57 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
-
+Step:1 Open Quartus II and select new project and choose the file location.
+Step:2 Module Declaration. Module should have the file name.
+Step:3 Declare Inputs and outputs.
+Step:4 Use assign declaration and wire to define the functionality of logic circuits.
+Step:5 End the program with endmodule.
+Step:6 Run the program and choose RTL viewer to get RTL realization.
 
 
 ### PROGRAM 
-/*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
 
+Developed by: SHIVAA PALANIYAPPAN V
+RegisterNumber:  23007210
 
+## CODE :
+## D FLIPFLOP:
+![Exp5 dfp code](https://github.com/shivaa-palaniyappan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/146915611/f7c97aab-c432-4f2d-8082-572e84da92aa)
 
+## T FLIPFLOP:
+![Exp5 tfp code](https://github.com/shivaa-palaniyappan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/146915611/7ae90594-0079-4390-a012-487f387f1478)
 
+## JK FLIPFLOP:
+![Exp5 jkfp code](https://github.com/shivaa-palaniyappan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/146915611/d0aa565f-bf74-4439-be22-d0887f67308e)
 
+## SR FLIPFLOP:
+![Exp5 srfp code](https://github.com/shivaa-palaniyappan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/146915611/f2ad9fa7-8429-47e2-a39a-8d26157aa214)
 
 ### RTL LOGIC FOR FLIPFLOPS 
+## D FLIPFLOP:
+![Exp5 dfp RTL diagram](https://github.com/shivaa-palaniyappan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/146915611/3e7448bc-71ff-46cc-a311-2132a62d75da)
 
+## T FLIPFLOP:
+![Exp5 tfp RTL diagram](https://github.com/shivaa-palaniyappan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/146915611/429327d6-2bca-478b-968e-44bac26d8efb)
 
+## JK FLIPFLOP:
+![Exp5 jkfp RTL diagram](https://github.com/shivaa-palaniyappan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/146915611/3ba3de69-7f3e-44fb-8485-7e6194611ae5)
 
-
-
-
-
-
+## SR FLIPFLOP:
+![Exp5 srfp RTL diagram](https://github.com/shivaa-palaniyappan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/146915611/155da17a-a140-4430-acce-5a5e08e7b627)
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
+## D FLIPFLOP:
+![d wave](https://github.com/shivaa-palaniyappan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/146915611/1e8c7fd4-5371-4198-8d0c-d3296db09c32)
 
+## T FLIPFLOP:
+![t wave](https://github.com/shivaa-palaniyappan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/146915611/f1e7ac32-d261-4e9b-86a7-fd0ab4f1c810)
 
+## JK FLIPFLOP:
+![jk wave](https://github.com/shivaa-palaniyappan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/146915611/85f90bb3-5a62-4fd5-a0a0-08986fac546c)
 
-
-
-
-
+## SR FLIPFLOP:
+![sr wave](https://github.com/shivaa-palaniyappan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/146915611/62ead857-2cf4-4bfe-a450-a00af2f33ee5)
 
 ### RESULTS 
+Thus, the program for flipflops is implemented and its functional table is successfully verified in quartus using Verilog programming.
